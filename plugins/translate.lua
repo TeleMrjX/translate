@@ -39,12 +39,9 @@ if lang == 'EN' then
 			{
 				{text = "🇦🇲Armenia", callback_data = '/am'},
 			},
-			{
-			    {text = "🇦🇿Azerbaijani", callback_data = '/az'},
-				{text = "Rate 5 star now⭐️", url = 'https://telegram.me/storebot?start=TranslateProBot'},
+			{   {text = "🇦🇿Azerbaijani", callback_data = '/az'},
 			},
 			{
-			    {text = "😉Join Channel", url = 'https://telegram.me/BeyondTeam'},
 				{text = "🔙Exit", callback_data = '/exit'},
 	    	},
     	}
@@ -84,10 +81,8 @@ elseif lang == 'FA' then
 			},
 			{
 				{text = "آذربایجانی🇦🇿", callback_data = '/az'},
-				{text = "همین حالا 5 ستاره به من بده⭐️", url = 'https://telegram.me/storebot?start=TranslateProBot'},
 			},
 			{
-				{text = "😉ورود به کانال", url = 'https://telegram.me/BeyondTeam'},
 				{text = "خروج🔙", callback_data = '/exit'},
 	    	},
     	}
@@ -127,10 +122,8 @@ elseif lang == 'AR' then
 			},
 			{
 			    {text = "🇦🇿أذربيجان", callback_data = '/az'},
-				{text = "معدل 5 نجوم الآن⭐️", url = 'https://telegram.me/storebot?start=TranslateProBot'},
 			},
 			{
-			    {text = "😉الانضمام إلى قناة", url = 'https://telegram.me/BeyondTeam'},
 				{text = "🔙خروج", callback_data = '/exit'},
 	    	},
     	}
