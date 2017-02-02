@@ -26,16 +26,11 @@ local text = 'Hi 👋 '..msg.from.first_name..'\nplease select yor language *Ple
 	api.sendKeyboard(msg.chat.id, text, keyboard, true)
 	end
 if matches[1] == 'about' then
-local text = '`Ver Bot` *1.5*\n *Thanks* [BeyondTeam](https://telegram.me/BeyondTeam) *And *[Mohammad](https://telegram.me/CRUEL) *for helping,and other friends*'
+local text = '`Ver Bot` *1.5*\n *Created By* [Reload](https://telegram.me/Reload)'
     local keyboard = {}
     keyboard.inline_keyboard = {
 	   {
-			{text = "Editor Bot", url = "https://telegram.me/L_U_A"},
-			{text = "Channel News Bot", url = "https://telegram.me/NewsTranslateProBot"},
-	   },
-	   {
-	        {text = "Beyond Team", url = "https://telegram.me/BeyondTeam"},
-			{text = "soucre Robot", url = "https://Github.com/MrAmirAlone/TranslateProBot"},
+			{text = "Creator", url = "https://telegram.me/Reload"},
 	   }
 	 }
 	api.sendKeyboard(msg.chat.id, text, keyboard, true)
